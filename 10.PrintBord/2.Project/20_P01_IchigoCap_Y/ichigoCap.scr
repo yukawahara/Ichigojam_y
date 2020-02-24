@@ -1,0 +1,47 @@
+# NetScript
+# 
+# Exported from B01_IchigojamCap-Y_v1.0.sch at 2020/02/24 23:03
+# 
+# EAGLE Version 9.0.0 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Change Class 0;
+Signal '3.3V'     'S1'       '1' \
+                  'S1'       '2' \
+                  'SV1'      '1' \
+                  'SV1'      '8' \
+                  'U$1'      '+' \
+                  'USB_RIGHT' '3' \
+                  ;
+Change Class 0;
+Signal 'GND'      'SV1'      '10' \
+                  'SV1'      '9' \
+                  'U$1'      '-' \
+                  'USB_RIGHT' '4' \
+                  ;
+Change Class 0;
+Signal 'KBD1'     'SV1'      '6' \
+                  'USB_RIGHT' '1' \
+                  ;
+Change Class 0;
+Signal 'KBD2'     'SV1'      '2' \
+                  'USB_LEFT' '1' \
+                  ;
+Change Class 0;
+Signal 'OFF'      'S1'       '3' \
+                  ;
+Change Class 0;
+Signal 'SCL'      'SV1'      '3' \
+                  'USB_LEFT' '2' \
+                  ;
+Change Class 0;
+Signal 'SDA'      'SV1'      '4' \
+                  'USB_LEFT' '3' \
+                  ;
+Change Class 0;
+Signal 'SOUND'    'SV1'      '7' \
+                  'USB_RIGHT' '2' \
+                  ;
+Change Class 0;
+Signal 'VIDEO'    'SV1'      '5' \
+                  'USB_LEFT' '4' \
+                  ;

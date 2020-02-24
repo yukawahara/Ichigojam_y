@@ -1,0 +1,38 @@
+Netlist
+
+Exported from B01_IchigojamCap-Y_v1.0.sch at 2020/02/24 23:00
+
+EAGLE Version 9.0.0 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Net      Part      Pad      Pin        Sheet
+
+3.3V     S1        1        O          1
+         S1        2        P          1
+         SV1       1        1          1
+         SV1       8        8          1
+         USB_RIGHT 3        D+         1
+
+GND      SV1       10       10         1
+         SV1       9        9          1
+         USB_RIGHT 4        GND        1
+
+KBD1     SV1       6        6          1
+         USB_RIGHT 1        VCC        1
+
+KBD2     SV1       2        2          1
+         USB_LEFT  1        VCC        1
+
+OFF      S1        3        S          1
+
+SCL      SV1       3        3          1
+         USB_LEFT  2        D-         1
+
+SDA      SV1       4        4          1
+         USB_LEFT  3        D+         1
+
+SOUND    SV1       7        7          1
+         USB_RIGHT 2        D-         1
+
+VIDEO    SV1       5        5          1
+         USB_LEFT  4        GND        1
+
